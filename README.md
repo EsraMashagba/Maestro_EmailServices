@@ -21,7 +21,7 @@ It uses the **OpenAI inference API** for classification and translation.
 
 1. **Clone the repository**
    ```bash
- git clone [https://github.com/your-username/](https://github.com/EsraMashagba/Maestro_EmailServices.git
+ git clone https://github.com/EsraMashagba/Maestro_EmailServices.git
  cd Maestro_EmailServices
 ````
 

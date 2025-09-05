@@ -21,8 +21,8 @@ It uses the **OpenAI inference API** for classification and translation.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/email-api.git
-   cd email-api
+ git clone [https://github.com/your-username/](https://github.com/EsraMashagba/Maestro_EmailServices.git
+ cd Maestro_EmailServices
 ````
 
 2. **Create a virtual environment**
@@ -119,14 +119,11 @@ It uses the **OpenAI inference API** for classification and translation.
   {
     "translation": "subject: Delivery request\ncontent: I want my package delivered tomorrow.\nlanguage: en"
   }
-  ```
 
----
 
 ## 🛠️ Technologies Used
 
 * [FastAPI](https://fastapi.tiangolo.com/) – Web framework
-* [Pydantic](https://docs.pydantic.dev/) – Data validation
 * [OpenAI API](https://platform.openai.com/docs/) – Classification & translation
 * [Uvicorn](https://www.uvicorn.org/) – ASGI server
 
@@ -147,10 +144,3 @@ It uses the **OpenAI inference API** for classification and translation.
 
 Developed by **Esra’a Mashagba**
 AI Solutions Specialist
-
-```
-
----
-
-Do you want me to also include a **sample `.env` file** setup so your team doesn’t hardcode the API key in the code?
-```

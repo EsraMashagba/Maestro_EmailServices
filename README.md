@@ -1,10 +1,4 @@
-Got it 👍 I’ll draft a clean **README.md** for your FastAPI email classifier/translator project.
 
-Here’s a suggested version:
-
----
-
-```markdown
 # 📧 Email Classifier & Translator API
 
 This project provides a **FastAPI service** that:
@@ -13,7 +7,6 @@ This project provides a **FastAPI service** that:
 
 It uses the **OpenAI inference API** for classification and translation.
 
----
 
 ## 🚀 Features
 - **Classification**: Detects if an email is about complaints, delivery, shipping, etc.
@@ -22,9 +15,6 @@ It uses the **OpenAI inference API** for classification and translation.
   - English ➝ Arabic
 - **Validation**: Uses **Pydantic models** to validate input.
 - **FastAPI docs**: Interactive API docs auto-generated at `/docs`.
-
----
-
 
 
 ## ⚙️ Setup & Installation

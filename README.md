@@ -1,5 +1,4 @@
-
-# 📧 Email Classifier & Translator API
+# Email Classifier & Translator API
 
 This project provides a **FastAPI service** that:
 - Classifies emails into predefined categories (English & Arabic).
@@ -8,7 +7,7 @@ This project provides a **FastAPI service** that:
 It uses the **OpenAI inference API** for classification and translation.
 
 
-## 🚀 Features
+## Features
 - **Classification**: Detects if an email is about complaints, delivery, shipping, etc.
 - **Translation**: 
   - Arabic ➝ English
@@ -17,13 +16,13 @@ It uses the **OpenAI inference API** for classification and translation.
 - **FastAPI docs**: Interactive API docs auto-generated at `/docs`.
 
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/EsraMashagba/Maestro_EmailServices.git
    cd Maestro_EmailServices
-````
+   ```
 
 2. **Create a virtual environment**
 
@@ -59,12 +58,13 @@ It uses the **OpenAI inference API** for classification and translation.
          base_url="https://ai-inference-stg.tahaluf.ae"
      )
      ```
-   * Then set your key:
 
-     ```bash
-     export OPENAI_API_KEY="sk-xxxxx"   # Linux / Mac
-     setx OPENAI_API_KEY "sk-xxxxx"     # Windows
-     ```
+   Then set your key:
+
+   ```bash
+   export OPENAI_API_KEY="sk-xxxxx"   # Linux / Mac
+   setx OPENAI_API_KEY "sk-xxxxx"     # Windows
+   ```
 
 5. **Run the app**
 
@@ -78,7 +78,7 @@ It uses the **OpenAI inference API** for classification and translation.
 
 ---
 
-## 📬 API Endpoints
+## API Endpoints
 
 ### 1. Classify Email
 
@@ -130,23 +130,13 @@ It uses the **OpenAI inference API** for classification and translation.
 
 ---
 
-## 📌 Notes
+## Notes
 
 * This example uses **hardcoded categories** (`complain`, `delivery`, `shipping`, `شكوى`, `شحنة`, etc.).
 * The **OpenAI models** used:
-
   * `openai/qwen3-14b` for classification
   * `openai/gemma3-27b-it-qat` for translation
 * You can replace them with other models depending on your use case.
-
----
-
-## 👩‍💻 Author
-
-Developed by **Esra’a Mashagba**
-AI Solutions Specialist
-
-```
 
 ---
 

@@ -21,8 +21,8 @@ It uses the **OpenAI inference API** for classification and translation.
 
 1. **Clone the repository**
    ```bash
- git clone https://github.com/EsraMashagba/Maestro_EmailServices.git
- cd Maestro_EmailServices
+   git clone https://github.com/EsraMashagba/Maestro_EmailServices.git
+   cd Maestro_EmailServices
 ````
 
 2. **Create a virtual environment**
@@ -59,13 +59,12 @@ It uses the **OpenAI inference API** for classification and translation.
          base_url="https://ai-inference-stg.tahaluf.ae"
      )
      ```
+   * Then set your key:
 
-   Then set your key:
-
-   ```bash
-   export OPENAI_API_KEY="sk-xxxxx"   # Linux / Mac
-   setx OPENAI_API_KEY "sk-xxxxx"     # Windows
-   ```
+     ```bash
+     export OPENAI_API_KEY="sk-xxxxx"   # Linux / Mac
+     setx OPENAI_API_KEY "sk-xxxxx"     # Windows
+     ```
 
 5. **Run the app**
 
@@ -119,7 +118,9 @@ It uses the **OpenAI inference API** for classification and translation.
   {
     "translation": "subject: Delivery request\ncontent: I want my package delivered tomorrow.\nlanguage: en"
   }
+  ```
 
+---
 
 ## 🛠️ Technologies Used
 
@@ -144,3 +145,8 @@ It uses the **OpenAI inference API** for classification and translation.
 
 Developed by **Esra’a Mashagba**
 AI Solutions Specialist
+
+```
+
+---
+
